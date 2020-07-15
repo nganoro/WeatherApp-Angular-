@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+  </head>
+
+  <body class="background">
+    <div class="container3 ">
+      <header class="header">
+        <nav class="row">
+            <a class="icon1 col-2 text-center"><i class="fas fa-chevron-left"></i></a> 
+            <a href=app.component.htmls class="fonts col-8">Weather</a>
+            <a class="icon2 col-2 text-center"><i class="fas fa-search"></i></a>
+        </nav>
+      </header>
+
+    <div class="content">
+        <div class="sunDiv">
+            <i class="fas fa-sun fa-3x sun"></i>
+        </div>
+        <div>
+          <img class="image" src="../assets/icn-weather-scattered-showers-512.png" width="50%" height="68%"/>
+        </div>
+
+        <div class="text">
+          <div class="image" style="font-size: 35px;">{{WeatherData.temp_celcius}}</div>
+          <div>{{WeatherData.country}}</div>
+          <div>{{WeatherData.sunset_time}}</div>
+        </div>
+
+        <section class="detail-section">
+          <div class="detail">
+            <div class="title">78</div>
+            <div class="value"><i class="fas fa-wind"></i></div>
+            <div class="description">Wind Flow</div>
+          </div>
+          <div class="detail">
+            <div class="title">52</div>
+            <div class="value"><i class="fas fa-wind"></i></div>
+            <div class="description">Preception</div>
+          </div>
+          <div class="detail">
+            <div class="title">78</div>
+            <div class="value"><i class="fas fa-cloud-sun"></i></div>
+            <div class="description">Humidity</div>
+          </div>
+        </section>
+
+        <section class="detail-section2">
+          <div class="detail2">
+            <div class="title">Windy</div>
+            <div class="value"><i class="fas fa-wind"></i></div>
+            <div class="description">12 PM</div>
+          </div>
+          <div class="detail2">
+            <div class="title">Rainy</div>
+            <div class="value"><i class="fas fa-wind"></i></div>
+            <div class="description">1 PM</div>
+          </div>
+          <div class="detail2">
+            <div class="title">Rainbow</div>
+            <div class="value"><i class="fas fa-cloud-sun"></i></div>
+            <div class="description">2 PM</div>
+          </div>
+          <div class="detail2">
+            <div class="title">Sunny</div>
+            <div class="value"><i class="fas fa-cloud-sun"></i></div>
+            <div class="description">5 PM</div>
+          </div>
+          <div class="detail2">
+            <div class="title">Moon</div>
+            <div class="value"><i class="fas fa-cloud-sun"></i></div>
+            <div class="description">8 PM</div>
+          </div>
+        </section>
+
+     </div>
+               
+     <footer>
+        <div class="container">
+          <div class="row">
+            <a class="col text-center"><i class="fas fa-home"></i></a>
+            <a class="col text-center"><i class="fas fa-cogs"></i></a>
+            <a class="col text-center"><i class="fab fa-windows"></i></a>
+            <a class="col text-center"><i class="fas fa-map-marked-alt"></i></a>
+          </div>
+        </div>
+     </footer>
+
+    </div>
+
+  </body>
+ </html>
+
+<router-outlet></router-outlet>

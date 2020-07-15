@@ -1,0 +1,123 @@
+.background{
+    background: linear-gradient(to right, rgb(48, 48, 146), rgb(0, 94, 47));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container3{
+    max-width: 80%;
+    height: 650px;
+    width: 400px;
+    background-color: rgb(34, 32, 32, 0.5);
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.content{
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.detail-section{
+    display: flex;
+    color: white;
+    padding: 20px;;
+}
+
+.detail-section2{
+    display: flex;
+    color: white;
+    padding: 20px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    border-radius: 5px;
+    background-color:rgb(34, 32, 32, 0.2);
+}
+
+.detail2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color:rgb(34, 32, 32, 0.2);
+}
+
+.fonts {
+    color:white;
+    text-align: center;
+    display:inline-block;
+
+}
+
+nav{
+    position: relative;
+}
+
+.icon1{
+    display:inline-block;
+    color: #ffffff !important;
+    
+}
+
+.icon2{
+    display:inline-block;
+    color: #ffffff !important;
+    
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+}
+
+.text{
+    text-align: center;
+    color: white;
+}
+
+.footerFont{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    color: white;
+}
+
+.fas,.fab{
+    color: #ffffff;
+}
+
+.sunDiv{
+    margin-bottom: -20px;
+    display: block;
+    text-align: center;
+}
+
+.sun{
+    color:orange;
+    filter: drop-shadow(1px 1px 10px yellow);
+    animation-name: sunMovement;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-duration: alternate;
+}
+
+@keyframes sunMovement {
+    from{margin-left: -55px;}
+    to{margin-left: 65px;}
+}
+
